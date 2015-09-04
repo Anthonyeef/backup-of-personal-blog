@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I migrate my blog from Hexo to Octopress"
+title: "I migrate my blog from Hexo to Octopress，and finally back to Jekyll"
 date: 2015-08-30 19:20:43 +0800
 comments: true
 categories: 
@@ -13,7 +13,7 @@ categories:
 Here is a test for the new blog framework. I decided to change my blog today, in order to make it looks better. All I expected was a clean, simple, and with high readbility blog framework. Of course the easy use is also considered.
 <!-- more -->
 
-Hexo is great. Hexo is popular now and the my last theme looks clean and great. However I still felt there is something lost. I think Octopress, a more traditional and old school static blog framework, should have more theme to choose from, and may fit my need.
+Hexo is great. Hexo is popular now and the my last theme looks clean and great. However I still felt there is something lost. I think Octopress, a more traditional and old school static blog framework, should have more theme to choose from, and may fit my need. But after I migrating to Octopress I found it difficult to keep the project page style coincedent to the blog page style, so I changed again to Jekyll.
 
 So here is it.
 
@@ -31,6 +31,8 @@ int MAX_METHOD = 65536;
 >"Talk is cheap, show me the code."
 
 看来就算是老牌的博客框架 Octopress，对于挑剔的人来说，也是很难一下子找到称心的 theme。我前后看了不少的 theme，但有的太花哨，有的字体太乱，容易让人失去注意力。有一个什么都好，但是明显制作者是设计师写的代码不多，所以一到代码块显示的部分就整个崩坏了。是真的崩坏，我并没有夸张……最后我选定了现在你所看到的这个 theme。但在测试的时候我发现，在 safari 中 header 和 subtitle 的字体，到了 Chrome 中就变成了另外一个。这样奇妙的变化让我觉得很好玩。打开 sass 文件，想看一下到底是为什么，发现应该是那个 font-family 在不同浏览器下会自己选择 prefer 的字体。我本来想或许这样也好。用 Mac 的 safari 看到的我的博客内容，是中规中矩的 Helvetica Neua，到了 Chrome 上打开，就会变成好看一些的衬线字体 Cardo。不同来源的人看到的内容是不一样的，这样的概念看起来很棒。
+
+（后来更换成 Jekyll 后选择了现在的这个主题，发现稍微调整以及添加少量代码后，看起来更加舒服了。也就不多赘言了。）
 
 但强迫症为了保证在不同设备上一致的阅读体验，加上我自己就是两个浏览器混和使用的人，就手一抖都强制成统一的字体了 XD。
 
