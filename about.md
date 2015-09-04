@@ -2,11 +2,25 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+「I live on the Internet.」 
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+这句话应该有两种理解的方式。其一是，我是一个离不开互联网的宅男，整天泡在网上；另一个则是绕了一下英文语法的弯：
+我以互联网为生。而不论是哪一种理解的方式，感觉对我而言都无比适用。
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+这个博客是挂载在 Github Page 服务上的一个静态博客。第一个版本的时候用中规中矩的 jekyll 作为框架，第二个版本用了更为简单轻便的 Hexo，一直到现在是第三个版本，用了成名已久的 Octopress。并不太在意工具的复杂度，但喜欢现在这个 theme 的优雅和可读性高。
+
+在 Safari 和 Chrome 下的阅读体验较好， Firefox 下则会有稍许变形。主要是 Markdown 的渲染在 Firefox 下会有些不同，以及字体会有微妙差异。移动设备中规中矩，有响应式。
+
+---
+
+学生，广东人在北京。
+
+大学读的是帝都普通211工科学校。大三时在欧洲交换，现在在台湾交换。
+
+会写一点前端。写一点 C++，写一些 Java（主要是 Android）。非科班出身，算法渣。会写程序完全是“唯手熟尔”。
+
+
+本科毕业后想写 Android。希望进入业界后，能有机会学习更多的技术。
