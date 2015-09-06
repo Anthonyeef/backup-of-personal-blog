@@ -17,7 +17,7 @@ theme:
     <p>轻敲键盘，静候佳音</p>
   header_text_feature_image:
   footer_text: >
-   Copyright 2015 | Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Copyright 2015 | Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> Modified by Anthonyeef
 
   # Icons
   rss: true
