@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Double S share"
-permalink: /secrect.html
+permalink: /secret.html
 comments: true
 hide: true
 ---
