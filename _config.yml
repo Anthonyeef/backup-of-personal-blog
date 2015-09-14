@@ -66,12 +66,11 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
 
-# kramdown:
-#   input: GFM
-#   syntax_highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 sass:
   sass_dir: _sass
