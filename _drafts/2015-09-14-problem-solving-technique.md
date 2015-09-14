@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming and Problem solving with C++"
-date: 2015-09-14 16:38:46 +0800
+<!--date: 2015-09-14 16:38:46 +0800-->
 comments: true
 categories: 
 - Life
