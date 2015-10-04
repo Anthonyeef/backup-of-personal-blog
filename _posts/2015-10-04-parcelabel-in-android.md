@@ -29,7 +29,7 @@ public class Paging implements Parcelable {
 }
 {% endhighlight %}
 
-此處先對 Paging 類中的物件進行聲明。如果要對 Paging 類進行 Parcel 處理，需要在 constructor 中對 Paging 進行 implements Parcelable 處理。同時應該在接下來的編碼中對 describeContent, writeToParcel, 進行重新定義（ 即是 Override ），並對 createFromParcel 的函數內容進行聲明。這些都是在 Google 的 [文檔](http://developer.android.com/reference/android/os/Parcel.html) 中有明確寫明的。
+此處先對 Paging 類中的物件進行聲明。如果要對 Paging 類進行 Parcel，則需要在 constructor 中對 Paging 進行 implements Parcelable 處理。同時應該在接下來的編碼中對 describeContent, writeToParcel, 進行重新定義（ 即是 Override ），並對 createFromParcel 的函數內容進行聲明。這些都是在 Google 的 [文檔](http://developer.android.com/reference/android/os/Parcel.html) 中有明確寫明的。
 
 而上面提到的這些函數的內容都比較固定且統一，敲進去編輯器即可。有沒有方便一些的方法呢？畢竟這些函數都是「固定且統一的」。
 
@@ -42,5 +42,7 @@ public class Paging implements Parcelable {
 public class Paging implements Parcelable
 {% endhighlight %}
 
-就基本完成了 Paging 類的 Parcel 化函數聲明。插件會自行生成一個 PagingParcelablePlease 的對象，此時 Android Studio 可能會出現 can't resolve symbole 的報錯提示。刷新下 Gradle 即可。之後再自行補充剩餘部分，就可以完成 Parcel 的過程。
+就基本完成了 Paging 類的 Parcel 化函數聲明，可以把剩下的工作交給插件了。
+
+插件會自行生成一個 PagingParcelablePlease 的對象，此時 Android Studio 可能會出現 can't resolve symbole 的報錯提示。刷新下 Gradle 即可。之後再自行補充剩餘部分，就可以完成 Parcel 的過程。
 
