@@ -133,4 +133,12 @@ if (s.find("doug") == string::npos){}
 
 
 > s.erase(i,m) //remove the substring of length m starting at index i;
-> s.replace(i, m, p) // replace the substring of length m
+> s.replace(i, m, p) // replace the substring of length m starting at index i with p;
+
+> Standard library header files are indicated with angle brackets, as in <iostream>, while other local header filed are indicated using quotes, as in "myInclude.h".
+{% highlight C++ linenos%}
+#include <iostream>
+#include "myIncludes.h"
+{% endhighlight %}
+
+> h 头文件的
