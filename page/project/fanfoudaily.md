@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: "FanfouDaily-饭否精选"
-feature-img: "img/fanfou.jpg"
+title: "FanfouDaily"
+feature-img: "img/fanfou.png"
 permalink: /project/android/fanfoudaily/
 hide: true
 
