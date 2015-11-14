@@ -46,6 +46,10 @@ Api 由现在饭否的维护者 .rex 提供。非常感谢他提供的帮助。
 - 增加卡片链接的点击事件
 - 增加分享到其他平台功能
 
+### Donate
+我的支付宝账户是：anthonyeef@gmail.com
+
+捐赠将会用来购买 Sketch 的 License。想动手画一个 Launcher icon。
 ### License
 
 > Copyright 2015 Google, Inc.
