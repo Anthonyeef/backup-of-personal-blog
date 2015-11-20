@@ -13,6 +13,9 @@ Here is the list of my project. You can easily click on each item to see what I 
     <li>
     	<a href="https://anthonyeef.github.io/project/android/fanfoudaily"> 饭否精选 Android 客户端</a>
     </li>
+    <li>
+        <a href="https://anthonyeef.github.io/project/android/minicatx"> 蘑菇饭X </a>
+    </li>
 </ul>
 
 ### Web
