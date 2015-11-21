@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: minicatX
-permailink: /project/android/minicatx/
+title: "MinicatX"
+permalink: /project/android/fanfoudaily/
 hide: true
 
 ---
@@ -16,5 +16,5 @@ hide: true
 
 ### 当前进度
 
-- 2015.11.20 项目启动。修改 LoginLayout。 
-
+- 2015.11.20 项目启动。修改 LoginLayout。
+- 2015.11.21 修改了 ActionBar 样式，增加了 FloatingActionButton 支持
