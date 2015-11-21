@@ -2,7 +2,7 @@
 
 layout: page
 title: "MinicatX"
-permalink: /project/android/fanfoudaily/
+permalink: /project/android/minicatx/
 hide: true
 
 ---
