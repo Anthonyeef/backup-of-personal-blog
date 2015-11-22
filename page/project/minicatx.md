@@ -21,3 +21,5 @@ hide: true
 - 2015.11.21
   - 解决新第三方 Library 中各种函数的冲突，更新了已经 deprecated 的方法；
   - 修改了 ActionBar 样式，增加了 FloatingActionButton 支持；
+- 2015.11.22
+    - 将饭否 Timeline 列表全部修改成卡片式。修改了卡片布局，背景，divider；
