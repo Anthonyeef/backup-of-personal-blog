@@ -37,3 +37,7 @@ hide: true
       - 因新的 CoordinatorLayout 中， Toolbar 和 Tablayout 在列表划动过程中的响应行为只有在列表是 RecyclerView 时才会被触发。原项目中使用了 mcxiaoke 自己定义的一个 listview 类（ EndlessListView)，如果强制修改成 RecyclerView 会非常麻烦（需要修改许多的监听器和相应时间，同时也要实现 RecyclerView 的 ViewHolder 等。
         - 同样的问题也存在在 FAB 上。FAB 的 fade in 和 fade out 方法依赖于  CoordinatorLayout 中的 behavior，该 behavior RecyclerView 或者是一个嵌套在其中的 ScrollView。
         为了能实现 tab 和 toolbar 在列表滑动时候的相应行为，决定下星期动手自己写 Toolbar 和 tab 布局。
+
+#### 2015.11.29
+
+  - 用 NavigationView 替代了原项目中用 Fragment 自定义的 Drawer。
