@@ -41,3 +41,9 @@ hide: true
 #### 2015.11.29
 
   - 用 NavigationView 替代了原项目中用 Fragment 自定义的 Drawer。
+
+#### 2015.12.05
+  - 最后决定去掉 HomeActivity 中的 Toolbar，只保留住 TabLayout;
+  - 用 Icon 代替 TabLayout 中的文字；
+  - 增加了 DrawerLayout 中左抽屉的点击事件；
+
